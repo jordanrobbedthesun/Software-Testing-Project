@@ -3,6 +3,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -137,7 +138,7 @@ public class NotificationTest {
 
         // Check if notification is silenced
         // Assert that the actual title matches the expected title
-//        Assert.assertEquals(driver1.getTitle(), "WhatsApp", "Notification is not muted!");
+        Assert.assertEquals(driver1.getTitle(), "WhatsApp", "Notification is not muted!");
 
         // Switch tabs
         // Store the original window handle
@@ -192,8 +193,8 @@ public class NotificationTest {
 
         // Check if notification is silenced
         // Assert that the actual title matches the expected title
-//        Assert.assertEquals(driver1.getTitle(), "WhatsApp", "Notification is not muted!");
-//        Thread.sleep(2000);
+        Assert.assertEquals(driver1.getTitle(), "WhatsApp", "Notification is not muted!");
+        Thread.sleep(2000);
 
         // Read notifications
         driver1.findElement(By.xpath("//*[@id=\"pane-side\"]/div[1]/div/div/div[4]")).click();
@@ -268,7 +269,7 @@ public class NotificationTest {
 
             // Check if notification is silenced
             // Assert that the actual title matches the expected title
-//            Assert.assertEquals(driver1.getTitle(), "(1) WhatsApp", "Notification is muted!");
+            Assert.assertEquals(driver1.getTitle(), "(1) WhatsApp", "Notification is muted!");
 
             // Switch tabs
             // Store the original window handle
@@ -323,8 +324,8 @@ public class NotificationTest {
 
             // Check if notification is silenced
             // Assert that the actual title matches the expected title
-//            Assert.assertEquals(driver1.getTitle(), "(2) WhatsApp", "Notification is muted!");
-//            Thread.sleep(2000);
+            Assert.assertEquals(driver1.getTitle(), "(2) WhatsApp", "Notification is muted!");
+            Thread.sleep(2000);
 //
             // Read notifications
             driver1.findElement(By.xpath("//*[@id=\"pane-side\"]/div[1]/div/div/div[4]")).click();
