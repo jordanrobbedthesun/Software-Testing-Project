@@ -4,42 +4,42 @@
     <test verbose="2"
           name="C:/Users/jorda/OneDrive - Florida Gulf Coast University/Projects/intellij/WhatsApp-Testing">
         <classes>
-<!--            <class name = "StatusTest">-->
-<!--                <methods>-->
-<!--                    <include name="testTextStatus"/>-->
-<!--                    <include name="testImageStatus"/>-->
-<!--                    <include name="testViewStatus"/>-->
-<!--                    <include name="testDeleteStatus"/>-->
-<!--                    <include name="testChangePrivacy"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name = "NotificationTest">-->
-<!--                <methods>-->
-<!--                    <include name="testMuteNotifications"/>-->
-<!--                    <include name="testNotificationReceivedWhenMuted"/>-->
-<!--                    <include name="testUnmuteNotifications"/>-->
-<!--                    <include name="testNotificationReceivedWhenUnmuted"/>-->
-<!--                    <include name="testDifferentChatNotifications"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name = "MessagingTest">-->
-<!--                <methods>-->
-<!--                    <include name="testSendingMultipleMessages"/>-->
-<!--                    <include name="testPhotos"/>-->
-<!--                    <include name="testVideosAndForwarding"/>-->
-<!--                    <include name="testStickers"/>-->
-<!--                    <include name="testVoiceMessage"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name = "SettingsTest">-->
-<!--                <methods>-->
-<!--                    <include name="testDeleteAccountPage"/>-->
-<!--                    <include name="testEditAccountPage"/>-->
-<!--                    <include name="testBlockAccount"/>-->
-<!--                    <include name="testReadReceipts"/>-->
-<!--                    <include name="testWallpaperChange"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name = "StatusTest">
+                <methods>
+                    <include name="testTextStatus"/>
+                    <include name="testImageStatus"/>
+                    <include name="testViewStatus"/>
+                    <include name="testDeleteStatus"/>
+                    <include name="testChangePrivacy"/>
+                </methods>
+            </class>
+            <class name = "NotificationTest">
+                <methods>
+                    <include name="testMuteNotifications"/>
+                    <include name="testNotificationReceivedWhenMuted"/>
+                    <include name="testUnmuteNotifications"/>
+                    <include name="testNotificationReceivedWhenUnmuted"/>
+                    <include name="testDifferentChatNotifications"/>
+                </methods>
+            </class>
+            <class name = "MessagingTest">
+                <methods>
+                    <include name="testSendingMultipleMessages"/>
+                    <include name="testPhotos"/>
+                    <include name="testVideosAndForwarding"/>
+                    <include name="testStickers"/>
+                    <include name="testVoiceMessage"/>
+                </methods>
+            </class>
+            <class name = "SettingsTest">
+                <methods>
+                    <include name="testDeleteAccountPage"/>
+                    <include name="testEditAccountPage"/>
+                    <include name="testBlockAccount"/>
+                    <include name="testReadReceipts"/>
+                    <include name="testWallpaperChange"/>
+                </methods>
+            </class>
             <class name="ContactTest">
                 <methods>
                     <include name="addingContactToFavorite"/>
@@ -58,25 +58,25 @@
                     <include name="deletingCommunity"/>
                 </methods>
             </class>
-<!--            <class name="ChannelsTest">-->
-<!--                <methods>-->
-<!--                    <include name="followChannel"/>-->
-<!--                    <include name="channelReact"/>-->
-<!--                    <include name="channelShare"/>-->
-<!--                    <include name="makeChannel"/>-->
-<!--                    <include name="takeScreenShot_share"/>-->
-<!--                    <include name="uploadChannelPic"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="ProfileTest">-->
-<!--                <methods>-->
-<!--                    <include name="profilePic"/>-->
-<!--                    <include name="changeName"/>-->
-<!--                    <include name="changeStatus"/>-->
-<!--                    <include name="cannotBeBlank"/>-->
-<!--                    <include name="changeBack"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="ChannelsTest">
+                <methods>
+                    <include name="followChannel"/>
+                    <include name="channelReact"/>
+                    <include name="channelShare"/>
+                    <include name="makeChannel"/>
+                    <include name="takeScreenShot_share"/>
+                    <include name="uploadChannelPic"/>
+                </methods>
+            </class>
+            <class name="ProfileTest">
+                <methods>
+                    <include name="profilePic"/>
+                    <include name="changeName"/>
+                    <include name="changeStatus"/>
+                    <include name="cannotBeBlank"/>
+                    <include name="changeBack"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
